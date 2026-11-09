@@ -1,0 +1,15 @@
+# Data, results and environments are created by the scripts and are not part of the repository
+data/raw/
+data/processed/
+data/geneset/R-loopBase_*.tsv.gz
+data/geneset/Rloop_genesets.rds
+results/
+logs/
+conda_env/
+conda_py/
+env/cache/
+Rplots.pdf
+.Rproj.user/
+.Rhistory
+.RData
+.DS_Store

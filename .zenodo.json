@@ -1,0 +1,16 @@
+{
+  "title": "Analysis code for: R-Loop Regulator Activity in Bladder Cancer Mainly Reflects Proliferation: An Integrative Single-Cell, Spatial and Bulk Transcriptomic Study",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "description": "R and Python scripts used to score R-loop regulators in single-cell, spatial and bulk transcriptomic data from bladder cancer, build a 16-gene R-loop-related risk score and benchmark it against proliferation, random gene sets and published bladder cancer signatures.",
+  "creators": [
+    {"name": "Guo, Xiaoyang", "affiliation": "Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine"},
+    {"name": "Wu, Mingjie", "affiliation": "Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine"},
+    {"name": "Sun, Zhiyue", "affiliation": "Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine"},
+    {"name": "Liao, Zhenghang", "affiliation": "Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine"},
+    {"name": "Zeng, Ke", "affiliation": "Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine"},
+    {"name": "Wen, Bo", "affiliation": "Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine"}
+  ],
+  "keywords": ["bladder cancer", "R-loop", "single-cell RNA sequencing", "spatial transcriptomics", "prognostic signature", "benchmarking"]
+}
