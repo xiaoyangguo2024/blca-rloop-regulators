@@ -1,0 +1,12 @@
+# conda-forge R leaves the C standard-specific compilers empty; packages that request C17/C23 (e.g. locfit) then fail.
+# R passes CC='$(CC17)' on the make command line for such packages, so CC17 must name the compiler explicitly
+# (CC17 = $(CC) ... would be recursive).
+CONDA_CFLAGS = -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem $(R_HOME)/../../include
+CC17 = arm64-apple-darwin20.0.0-clang -std=gnu17
+C17FLAGS = $(CONDA_CFLAGS) $(LTO)
+CC23 = arm64-apple-darwin20.0.0-clang -std=gnu2x
+C23FLAGS = $(CONDA_CFLAGS) $(LTO)
+CC99 = arm64-apple-darwin20.0.0-clang -std=gnu99
+C99FLAGS = $(CONDA_CFLAGS) $(LTO)
+CC90 = arm64-apple-darwin20.0.0-clang -std=gnu90
+C90FLAGS = $(CONDA_CFLAGS) $(LTO)
